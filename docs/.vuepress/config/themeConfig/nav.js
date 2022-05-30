@@ -9,11 +9,11 @@ module.exports = [
       // {
         // text: '前端文章',
         // items: [
-          { text: 'JavaScript', link: '/pages/8143cc480faf9a11/' },
+          { text: 'JavaScript', link: '/pages/23e8b8/' },
           { text: 'HTML', link: '/pages/8309a5b876fc95e3/' },
           { text: 'CSS', link: '/pages/c8f128/' },
           { text: 'stylus', link: '/pages/9f15c1a281d8bedb/' },
-          { text: 'Vue', link: '/pages/5d463fbdb172d43b/' },
+          { text: 'Vue', link: '/pages/471299/' },
         // ],
       // },
     ],
