@@ -4,23 +4,24 @@
 set -e
 
 # 生成静态文件
-npm run build
+pnpm build
 
-cd docs/.vuepress/dist
+# copy
+cp -r docs/.vuepress/dist/. dist
 
-git add .
+cd dist
 
-git commit -m "gitee commit"
+git init
+
+git commit -am "feat: update"
 
 git remote add origin https://gitee.com/tingke/docs.git
 
 git push -u origin master
 
-cd ../..
+cd ..
 
-git add .
-
-git commit -m "gitee commit"
+git commit -am "feat: update"
 
 git remote add origin https://gitee.com/tingke/doc-source.git
 
