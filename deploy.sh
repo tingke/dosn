@@ -7,13 +7,13 @@ set -e
 pnpm build
 
 # copy
-cp -r docs/.vuepress/dist/. dist
+cp -r docs/.vuepress/dist/. dist/.
 
 cd dist
 
-git init
+git add .
 
-git commit -am "feat: update"
+git commit -m "feat: update"
 
 git remote add origin https://gitee.com/tingke/docs.git
 
@@ -21,7 +21,9 @@ git push -u origin master
 
 cd ..
 
-git commit -am "feat: update"
+git add .
+
+git commit -m "feat: update"
 
 git remote add origin https://gitee.com/tingke/doc-source.git
 
