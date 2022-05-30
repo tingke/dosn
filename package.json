@@ -6,6 +6,8 @@
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",
+    "deploy": "bash ./deploy.sh",
+    "update": "pnpm remove vuepress-theme-vdoing && rm -rf node_modules && pnpm add vuepress-theme-vdoing -D",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -13,6 +15,6 @@
   "devDependencies": {
     "dayjs": "^1.10.4",
     "vuepress": "^1.8.2",
-    "vuepress-theme-vdoing": "^1.8.1"
+    "vuepress-theme-vdoing": "^1.8.2"
   }
 }
