@@ -15,8 +15,6 @@ git add .
 
 git commit -m "feat: update"
 
-git remote add origin https://gitee.com/tingke/docs.git
-
 git push -u origin master
 
 cd ..
@@ -24,8 +22,6 @@ cd ..
 git add .
 
 git commit -m "feat: update"
-
-git remote add origin https://gitee.com/tingke/doc-source.git
 
 git push -u origin master
 
