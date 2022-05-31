@@ -7,7 +7,7 @@ set -e
 pnpm build
 
 # copy
-cp -r docs/.vuepress/dist/. dist/.
+cp -rf docs/.vuepress/dist/** dist
 
 cd dist
 
