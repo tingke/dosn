@@ -11,7 +11,6 @@ module.exports = {
     markdown: {
         lineNumbers: true, // 代码行号
     },
-
     head,
     plugins,
     themeConfig

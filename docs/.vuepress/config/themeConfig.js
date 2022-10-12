@@ -13,9 +13,7 @@ module.exports = {
   docsDir: 'docs', // 编辑的文件夹
   editLinks: true, // 启用编辑
   editLinkText: '编辑',
-
   sidebar: 'structuring', // 侧边栏  'structuring' | { mode: 'structuring', collapsable: Boolean} | 'auto' | 自定义    温馨提示：目录页数据依赖于结构化的侧边栏数据，如果你不设置为'structuring',将无法使用目录页
-
   author: {
     // 文章默认的作者信息，可在md文件中单独配置此信息 String | {name: String, link: String}
     name: 'tingke', // 必需
@@ -24,8 +22,7 @@ module.exports = {
   footer: {
     // 页脚信息
     createYear: 2021, // 博客创建年份
-    copyrightInfo:
-      'DOSN', // 博客版权信息，支持a标签
+    copyrightInfo: 'DOSN', // 博客版权信息，支持a标签
   },
   htmlModules // 插入hmtl(广告)模块
 }

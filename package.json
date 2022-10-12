@@ -15,6 +15,7 @@
   "devDependencies": {
     "dayjs": "^1.10.4",
     "vuepress": "^1.8.2",
+    "vuepress-plugin-comment": "^0.7.3",
     "vuepress-theme-vdoing": "^1.8.2"
   }
 }
