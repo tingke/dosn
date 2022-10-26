@@ -4,12 +4,14 @@ specifiers:
   dayjs: ^1.10.4
   vuepress: ^1.8.2
   vuepress-plugin-comment: ^0.7.3
+  vuepress-plugin-demo-block: ^0.7.2
   vuepress-theme-vdoing: ^1.8.2
 
 devDependencies:
   dayjs: 1.11.2
   vuepress: 1.9.7
   vuepress-plugin-comment: 0.7.3
+  vuepress-plugin-demo-block: 0.7.2
   vuepress-theme-vdoing: 1.11.3
 
 packages:
@@ -9083,6 +9085,10 @@ packages:
     dependencies:
       '@vuepress/shared-utils': 1.9.7
       markdown-it-container: 2.0.0
+    dev: true
+
+  /vuepress-plugin-demo-block/0.7.2:
+    resolution: {integrity: sha512-0k7z7bTjXoXgdAMVFIVn3RFSQpKOM0yvD0hf/CA0gMCLBih77mCALtEpH9b+bEvijHmLLIq+BUtS2TQHXpkbNA==}
     dev: true
 
   /vuepress-plugin-smooth-scroll/0.0.3:

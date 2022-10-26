@@ -10,6 +10,7 @@ module.exports = [
             { text: "JS", link: "/pages/23e8b8/" },
             { text: "HTML", link: "/pages/8309a5b876fc95e3/" },
             { text: "CSS", link: "/pages/c8f128/" },
+            { text: "小程序", link: "/pages/df2429/" },
             { text: "ES6 笔记", link: "/pages/f344d070a1031ef7/" },
             { text: "TypeScript 从零实现 axios", link: "/pages/e05dce83e5129785/" },
             { text: "Git学习笔记", link: "/pages/8292d8/" },
