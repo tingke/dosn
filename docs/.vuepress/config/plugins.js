@@ -85,7 +85,7 @@ module.exports = [
       options: {
         clientID: 'd58b8ea7946cd7c1f35c',
         clientSecret: 'b8b5fbc0d9784ef9e7b6b69d504d8abe0ee8456f',
-        repo: 'dosn-gitalk-comment', // GitHub 仓库
+        repo: 'dosn', // GitHub 仓库
         owner: 'tingke', // GitHub仓库所有者
         admin: ['tingke'], // 对仓库有写权限的人
         // distractionFreeMode: true,
